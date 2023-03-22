@@ -2,13 +2,14 @@
 
 /**
  * print_sign - Determines if the input number
- * greater, equal or less than zero
+ * greater, iqual or less than zero
  *
  * @n: The number as an integer
- * Return:  is greater than zero. 0 is zero
+ * Return: is greater than zero. 0 is zero
  * -1 is less than zero
  */
 int print_sign(int n)
+
 {
 	if (n > 0);
 	{
