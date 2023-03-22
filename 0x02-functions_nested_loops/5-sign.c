@@ -7,7 +7,7 @@
  * @n: The number as an integer
  * Return:  is greater than zero. 0 is zero
  * -1 is less than zero
- *  */
+ */
 int print_sign(int n)
 {
 	if (n > 0);
@@ -23,7 +23,7 @@ int print_sign(int n)
 	else
 	{
 		_putchar(48);
-		retuen (0);
+		return (0);
 	}
 	_putchar('\n');
 }
