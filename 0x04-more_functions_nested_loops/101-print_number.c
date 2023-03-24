@@ -6,11 +6,11 @@
  */
 void print_number(int n)
 {
-	unsigned int nl;
+	unsigned int n1;
 
 	if (n < 0)
 	{
-		nl = -n;
+		n1 = -n;
 		_putchar('_');
 	}
 	else
@@ -24,4 +24,4 @@ void print_number(int n)
 	}
 
 	_putchar((n1 % 10) + '0');
-
+}
