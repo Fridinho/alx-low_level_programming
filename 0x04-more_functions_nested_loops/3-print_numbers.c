@@ -2,10 +2,10 @@
 
 /**
  * print_numbers - print 0-9
- * return: void
+ * Return: void
  */
 
-int print_numbers(void)
+void print_numbers(void)
 {
 	char c;
 
@@ -14,6 +14,5 @@ int print_numbers(void)
 		_putchar(c);
 	}
 	_putchar('\n');
-
-	return (0);
 }
+
