@@ -11,22 +11,20 @@
 int main(void)
 {
 	int n;
-	int x;
 
 	srand(time(0));
-	n = rand() - RAN_MAX / 2;
-	x = n % 10; |
-	printf("Last digit of %d is %d," n, x);
-	if (x > 5)
+	n = rand() - RAND_MAX / 2;
+	if (n > 0)
 	{
-		printf("and is greater than 5")
+		printf("%d is positive\n", n);
 	}
-	if (x == 0)
+	else if (n == 0)
 	{
-		printf("and is 0")
+		printf("%d is zero\n", n);
 	}
-	if (x < 6 && x != 0)
-		printf("and is less than 6 and and o");
-	printf("\n");
+	else
+	{
+		printf("% is negative\n", n);
+	}
 	return (0);
 }
