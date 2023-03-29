@@ -33,7 +33,7 @@ int main(void)
 		}
 		if (!(i % 10) && i)
 		{
-			print < F5 > f("\n");
+			printf("\n");
 		}
 		printf("0x%02x", s1[i]);
 	}
